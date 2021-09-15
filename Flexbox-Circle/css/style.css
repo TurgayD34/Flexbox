@@ -1,0 +1,33 @@
+.main-circle{
+    width: 1152px;
+    height: 700px;
+    border: 1px solid red;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+.circle{
+    width: 273px;
+    height: 220px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.first-circle{
+    margin-left: 146px;
+    margin-top: 120px;
+}
+.second-circle{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.third-circle{
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.fourth-circle{
+    margin-left: 146px;
+}
+.fifth-circle{
+
+}
