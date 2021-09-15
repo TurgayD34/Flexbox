@@ -1,0 +1,68 @@
+ #main-box{
+    width: 1152px;
+    height: 700px;
+    margin: 50px;
+    background-color: tomato;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(220, 27, 27);
+    text-align: center;
+ }
+ .box{
+    width: 468px;
+    height: 160px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+ }
+ .box div{
+     width: 78px;
+     min-height: 78px;
+     margin: 20px;
+     border-radius: 4px;
+     background-color: #333;
+ }
+ .first-box{
+     justify-content: flex-start;
+     align-items: flex-end;
+ }
+ .second-box{
+     align-items: center;
+     align-items: stretch;
+ }
+ .third-box{
+    align-items: center;
+    justify-content: flex-end; 
+ }
+ .fourth-box{
+     align-items: flex-start;
+     justify-content: space-between;
+ }
+ .fourth-box :nth-child(3){
+     align-self: flex-end;
+ }
+ .fifth-box{
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     align-items: baseline;  
+ }
+ .fifth-box :nth-child(1), .fifth-box :nth-child(3){
+    
+ }
+ .sixth-box{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+ }
+ .sixth-box :nth-child(2){
+     flex-grow: 2;
+ }
+.second-box{
+    
+}
