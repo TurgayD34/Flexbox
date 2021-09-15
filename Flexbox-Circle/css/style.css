@@ -1,33 +1,28 @@
 .main-circle{
     width: 1152px;
     height: 700px;
-    border: 1px solid red;
+    border: 1px solid #333;
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: cornflowerblue;
 }
 .circle{
     width: 273px;
     height: 220px;
-    border: 1px solid black;
     margin: 20px;
+    display: flex;
+    background-color: #fff;
 }
-.first-circle{
-    margin-left: 146px;
-    margin-top: 120px;
+.circle div{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 20px;
+    background-color: #333;
 }
-.second-circle{
-    margin-top: 120px;
-    margin-left: 20px;
-}
-.third-circle{
-    margin-top: 120px;
-    margin-left: 20px;
-}
-.fourth-circle{
-    margin-left: 146px;
-}
-.fifth-circle{
-
-}
+/* I tried many codes but it does not work and complecated. I will find solutions. */
